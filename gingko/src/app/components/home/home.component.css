@@ -62,9 +62,10 @@
   margin-top: 0px;
 }
 
-.loader {
+.new-eng {
   margin-top: 30px;
   margin-left: 80px;
+  font-size: 17px;
 }
 
 .right-btn {
@@ -88,4 +89,88 @@
   padding: 6px 14px;
   cursor: pointer;
   margin-top: 0px;
+}
+
+.arrow-loader {
+  margin-left: 80px;
+  font-size: 14px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-right: 95px;
+  margin-top: 25px;
+  padding: 45px;
+}
+
+.loader {
+  position: relative;
+  bottom: 30px;
+  right: 15px;
+}
+/* Global CSS, you probably don't need that */
+
+
+
+/* Breadcrups CSS */
+
+.arrow-steps .step {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  cursor: default;
+  /* margin: 0 3px; */
+  padding: 3px;
+  min-width: 180px;
+  float: left;
+  position: relative;
+  background-color: #f4f4f4;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -23px;
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 24px solid#F4F4F4;
+  z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+  right: auto;
+  left: 0;
+  border-left: 17px solid #fff;
+  z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+  border: none;
+}
+
+.arrow-steps .step:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+  position: relative;
+}
+
+
+.arrow-steps .step.current {
+  color: #fff;
+  background-color: #1b998b;
+}
+
+.arrow-steps .step.current:after {
+  border-left: 17px solid #1b998b;
+  right: -17px;
 }
