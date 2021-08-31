@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 21px;
+  margin-left: 32px;
+  margin-top: 40px;
+}
+
+.login-form {
+  margin-top: 210px;
+  line-height: 35px;
+  margin-left: 120px;
+}
+
+.login input {
+  border: 1px solid;
+  padding: 5px 18px;
+}
+
+.btn {
+  background-color: #283f8b;
+  border: none;
+  color: white;
+  width: 209px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 12px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+.checkbox {
+  margin-top: 18px;
+  font-size: 10px;
+}
+
+.checkbox input {
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+#box {
+  margin-left: 5px;
+}
+
+#box1 {
+  margin-left: 65px;
+  color: #283f8b;
+}
+
+.alch {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 250px;
+  letter-spacing: 2px;
+}
+.img {
+  position: absolute;
+  top: 0px;
+  left: 555px;
+}
