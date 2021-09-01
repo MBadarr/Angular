@@ -100,12 +100,17 @@
   padding: 45px;
 }
 
+@media screen and (max-width: 768px) {
+  .arrow-loader {
+    height: 55%;
+    width: 65%;
+  }
+}
 .loader {
   position: relative;
   bottom: 30px;
   right: 15px;
 }
-/* Global CSS, you probably don't need that */
 
 /* Breadcrups CSS */
 
@@ -179,6 +184,17 @@
   font-size: 12px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 16%;
+    font-size: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+  }
 }
 
 .login-form {
