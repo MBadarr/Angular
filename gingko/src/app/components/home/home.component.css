@@ -72,7 +72,7 @@
   float: right;
   position: relative;
   right: 80px;
-  bottom: 25px;
+  bottom: 30px;
 }
 
 .right-btn a {
@@ -243,3 +243,21 @@
 #title {
   font-size: 9px;
 }
+
+.tabs {
+  margin-left: 28%;
+  position: absolute;
+  top: 260px;
+  width: 42%;
+}
+
+::ng-deep .mat-tab-label .mat-tab-label-content {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+  min-width: 0!important;
+  padding: 15px!important;
+  margin: 3px!important;
+ }
