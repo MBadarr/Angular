@@ -261,3 +261,14 @@
   padding: 15px!important;
   margin: 3px!important;
  }
+
+ .card1 {
+  width: 19%;
+  margin-top: 12px;
+  position: absolute;
+  top: 255px;
+  left: 1000px;
+  font-size: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+}
