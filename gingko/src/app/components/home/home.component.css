@@ -247,7 +247,7 @@
 .tabs {
   margin-left: 375px;
   position: absolute;
-  top: 260px;;
+  top: 260px;
   /* width: 42%; */
 }
 
@@ -303,15 +303,15 @@
 }
 
 .btn4 {
-  background-color: #26a69a;
+  background-color: #dcedeb;
   border: none;
   font-size: 10px;
-  padding: 6px 14px;
+  padding: 6px 16px;
   position: relative;
   bottom: 30px;
   left: 45px;
   cursor: pointer;
-  color: white;
+  color: #0f574f;
   margin-top: 30px;
   float: right;
 }
