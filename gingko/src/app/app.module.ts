@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent, HomeComponent],
@@ -17,6 +18,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatCardModule,
     MatTabsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
