@@ -444,3 +444,15 @@
   width: 90px;
   /* column-gap: 80px; */
 }
+
+
+.card3 {
+  width: 19%;
+  margin-top: 710px;
+  position: absolute;
+  top: 255px;
+  left: 1000px;
+  font-size: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+}
